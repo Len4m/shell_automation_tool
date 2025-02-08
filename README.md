@@ -3,6 +3,7 @@
 Esta herramienta está diseñada para automatizar el tratamiento de TTY cuando se crean shells en el contexto del hacking ético. Utiliza `bash` y `xdotool` para la automatización.
 
 ## Instalación
+
 Para usar esta herramienta, necesitas tener los siguientes paquetes instalados:
 
 - bash
@@ -52,13 +53,13 @@ Al ejecutar `shell_automation_tool.sh` sucederá lo siguiente:
 1. La flecha del cursor del ratón se modificará por otro, el usuario debe seleccionar la ventana de su shell a tratar.
 2. El programa se encargara de ejecutar todos los comandos para tratar el shell (incluido el Ctrl+Z), utilizando `script` por defecto o la tecnología que se le paso como primer parámetro.
 
-Atención: El programa escribe los comandos con un delay (configurable en el segundo parámetro), espera a que termine! Si pulsas en otra ventana que no es el shell a tratar el programa empezará a introducir los comandos en la ventana equivocada.
+    **Atención**: El programa escribe los comandos con un delay (configurable en el segundo parámetro), espera a que termine! Si pulsas en otra ventana que no es el shell a tratar, el programa empezará a introducir los comandos en la ventana equivocada.
 
 Una forma muy ágil de utilizar la herramienta, es poniendo la ejecución en un botón de la barra de tareas, ejemplo con Kali/KDE y el widget "Command Output" de Plasma.
 
 ![Configuración Command Output](plasma-example.png)
 
-A continuación un video de ejemplo del funcionamiento, **tratamiento del TTY a dos clicks**.
+A continuación un video de ejemplo del funcionamiento, **tratamiento del TTY a dos clics**.
 
 ![Video ejemplo uso](video.gif)
 
