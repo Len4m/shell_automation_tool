@@ -60,7 +60,7 @@ Una forma muy ágil de utilizar la herramienta, es poniendo la ejecución en un 
 
 A continuación un video de ejemplo del funcionamiento, **tratamiento del TTY a dos clicks**.
 
-![Video ejemplo uso](vidoe.gif)
+![Video ejemplo uso](video.gif)
 
 ## Mejoras Futuras
 
